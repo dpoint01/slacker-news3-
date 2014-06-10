@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Slacker News</title>
+  <link href="/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <!-- navigation menu that can be displayed on every page -->
+  <div id="menu">
+    <ul>
+      <li><a href="/articles">Articles</a></li>
+      <li><a href="">Most recent</a></li>
+      <li><a class="button" href="/articles/new">Send an article</a></li>
+      <li><a href="">Comments</a></li>
+    </ul>
+  </div>
+  <%= yield %>
+</body>
+</html>
